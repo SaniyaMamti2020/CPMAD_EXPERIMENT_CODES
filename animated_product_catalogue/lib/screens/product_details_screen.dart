@@ -31,11 +31,7 @@ class ProductDetailsScreen
               CrossAxisAlignment.start,
 
           children: [
-
-            // =================================================
             // HERO IMAGE
-            // =================================================
-
             Hero(
 
               tag:
@@ -67,11 +63,7 @@ class ProductDetailsScreen
                 },
               ),
             ),
-
-            // =================================================
             // PRODUCT DETAILS
-            // =================================================
-
             Padding(
               padding:
                   const EdgeInsets.all(20),
@@ -146,10 +138,8 @@ class ProductDetailsScreen
 
                   const SizedBox(height: 30),
 
-                  // =================================================
-                  // ADD TO CART BUTTON
-                  // =================================================
-
+                      // ADD TO CART BUTTON
+    
                   SizedBox(
 
                     width: double.infinity,

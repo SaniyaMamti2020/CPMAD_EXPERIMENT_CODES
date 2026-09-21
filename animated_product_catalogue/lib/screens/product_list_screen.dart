@@ -57,11 +57,7 @@ class ProductListScreen extends StatelessWidget {
     );
   }
 }
-
-// ============================================================
 // CUSTOM PAGE TRANSITION
-// ============================================================
-
 Route _createRoute(Widget page) {
   return PageRouteBuilder(
     pageBuilder: (

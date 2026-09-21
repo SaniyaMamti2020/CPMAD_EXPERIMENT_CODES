@@ -15,17 +15,9 @@ class AnimatedFavoriteButton
 class _AnimatedFavoriteButtonState
     extends State<AnimatedFavoriteButton>
     with SingleTickerProviderStateMixin {
-
-  // ==========================================================
   // ANIMATION CONTROLLER
-  // ==========================================================
-
   late AnimationController controller;
-
-  // ==========================================================
   // TWEEN
-  // ==========================================================
-
   late Animation<double> scaleAnimation;
 
   bool isFavorite = false;
@@ -58,22 +50,14 @@ class _AnimatedFavoriteButtonState
       ),
     );
   }
-
-  // ==========================================================
   // DISPOSE
-  // ==========================================================
-
   @override
   void dispose() {
     controller.dispose();
 
     super.dispose();
   }
-
-  // ==========================================================
   // FAVORITE FUNCTION
-  // ==========================================================
-
   void toggleFavorite() {
 
     setState(() {

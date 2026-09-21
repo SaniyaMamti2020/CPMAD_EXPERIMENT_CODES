@@ -84,11 +84,7 @@ class _AnimatedProductCardState
                 CrossAxisAlignment.start,
 
             children: [
-
-              // =================================================
               // PRODUCT IMAGE + HERO
-              // =================================================
-
               Expanded(
 
                 child: Stack(
@@ -121,11 +117,7 @@ class _AnimatedProductCardState
                         ),
                       ),
                     ),
-
-                    // ==============================
                     // FAVORITE BUTTON
-                    // ==============================
-
                     Positioned(
                       top: 8,
                       right: 8,
@@ -136,11 +128,7 @@ class _AnimatedProductCardState
                   ],
                 ),
               ),
-
-              // =================================================
               // PRODUCT INFORMATION
-              // =================================================
-
               Padding(
                 padding:
                     const EdgeInsets.all(10),
