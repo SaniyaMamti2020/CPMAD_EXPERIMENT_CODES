@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "880422794378",
+    "project_id": "login-55d2f",
+    "storage_bucket": "login-55d2f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880422794378:android:256d9f9d5d9d774cc76973",
+        "android_client_info": {
+          "package_name": "com.example.realtime_chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBpysV4FiI-dB78oy4Ui7NnK8dyhq8oKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
